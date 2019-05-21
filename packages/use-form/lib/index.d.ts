@@ -1,1 +1,1 @@
-export declare const sum: (x: number, y: number) => number;
+export declare const sum: (numbers: number[]) => number;
