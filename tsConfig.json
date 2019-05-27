@@ -4,13 +4,19 @@
     "declaration": true,
     "noImplicitAny": true,
     "removeComments": true,
+    "jsx": "react",
     "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es6",
     "sourceMap": true,
     "lib": [
-      "es6"
+      "es2015", "es2016",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "typeRoots" : [
+      "node_modules/@types"
     ]
   },
   "exclude": [
