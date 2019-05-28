@@ -12,9 +12,12 @@
     "@avj/input": "0.0.4-alpha.0",
     "@avj/use-form": "^0.0.7",
     "@babel/core": "^7.4.5",
+    "@types/react": "^16.8.18",
+    "@types/storybook__react": "^4.0.1",
     "babel-loader": "^8.0.6",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "ts-loader": "^6.0.1"
   },
   "devDependencies": {
     "@storybook/react": "^5.0.11"

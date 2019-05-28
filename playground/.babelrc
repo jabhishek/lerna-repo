@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": true,
+        "modules": false,
+        "useBuiltIns": "usage",
+        "targets": {
+          "browsers": [
+            "last 1 version"
+          ]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
