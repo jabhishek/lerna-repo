@@ -26,5 +26,5 @@ export const InputField = <T extends string | number>({ label, id, ...props }: F
     return <div>
         <label htmlFor={id}>{label}</label>
         <Input id={id} {...props} />
-    </div>
+    </div>;
 };
