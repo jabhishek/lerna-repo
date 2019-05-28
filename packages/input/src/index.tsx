@@ -13,13 +13,18 @@ type FieldProps<T extends string | number> = InputProps<T> & {
     label: string;
 }
 
-export const Input = <T extends string | number>({ value, onChange, type = 'text' }: InputProps<T>): React.ReactElement => {
-    return <input value={value} onChange={(e: ChangeEvent<HTMLInputElement>) => onChange(e.target.value)} type={type}/>;
+export const Input = <T extends string | number>({ value, onChange, type = 'text', name, id }: InputProps<T>): React.ReactElement => {
+    return <input
+        id={id}
+        name={name}
+        value={value}
+        onChange={(e: ChangeEvent<HTMLInputElement>) => onChange(e.target.value)}
+        type={type}/>;
 };
 
-export const InputField = <T extends string | number>({ label, name, ...props }: FieldProps<T>) => {
+export const InputField = <T extends string | number>({ label, id, ...props }: FieldProps<T>) => {
     return <div>
-        <label htmlFor={name}>{label}</label>
-        <Input {...props} />
+        <label htmlFor={id}>{label}</label>
+        <Input id={id} {...props} />
     </div>
 };

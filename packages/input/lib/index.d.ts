@@ -9,6 +9,6 @@ interface InputProps<T extends string | number> {
 declare type FieldProps<T extends string | number> = InputProps<T> & {
     label: string;
 };
-export declare const Input: <T extends string | number>({ value, onChange, type }: InputProps<T>) => React.ReactElement<any, string | ((props: any) => React.ReactElement<any, string | any | (new (props: any) => React.Component<any, any, any>)>) | (new (props: any) => React.Component<any, any, any>)>;
-export declare const InputField: <T extends string | number>({ label, name, ...props }: FieldProps<T>) => JSX.Element;
+export declare const Input: <T extends string | number>({ value, onChange, type, name, id }: InputProps<T>) => React.ReactElement<any, string | ((props: any) => React.ReactElement<any, string | any | (new (props: any) => React.Component<any, any, any>)>) | (new (props: any) => React.Component<any, any, any>)>;
+export declare const InputField: <T extends string | number>({ label, id, ...props }: FieldProps<T>) => JSX.Element;
 export {};

@@ -10,13 +10,13 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = require("react");
-exports.Input = ({ value, onChange, type = 'text' }) => {
-    return React.createElement("input", { value: value, onChange: (e) => onChange(e.target.value), type: type });
+exports.Input = ({ value, onChange, type = 'text', name, id }) => {
+    return React.createElement("input", { id: id, name: name, value: value, onChange: (e) => onChange(e.target.value), type: type });
 };
 exports.InputField = (_a) => {
-    var { label, name } = _a, props = __rest(_a, ["label", "name"]);
+    var { label, id } = _a, props = __rest(_a, ["label", "id"]);
     return React.createElement("div", null,
-        React.createElement("label", { htmlFor: name }, label),
-        React.createElement(exports.Input, Object.assign({}, props)));
+        React.createElement("label", { htmlFor: id }, label),
+        React.createElement(exports.Input, Object.assign({ id: id }, props)));
 };
 //# sourceMappingURL=index.js.map
