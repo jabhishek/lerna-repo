@@ -20,6 +20,7 @@
   },
   "scripts": {
     "tsc": "tsc",
+    "build": "node ../../shared/build",
     "lint": "eslint src/**/* --ext ts,tsx --fix",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },

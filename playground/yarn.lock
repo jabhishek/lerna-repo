@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@avj/input@0.0.4-alpha.0":
-  version "0.0.4-alpha.0"
-  resolved "https://registry.yarnpkg.com/@avj/input/-/input-0.0.4-alpha.0.tgz#ce2ba5c6f468d86615d171024df594ec4eec114d"
-  integrity sha512-a2+zPshl+2QnTrKpiJUqKVm0N1mb5gmUEMmEwTgVfuiF4hxj5Hv8GqM1IuKDcZASm95p9U3ecXo7UaFTR/NNlQ==
+"@avj/input@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@avj/input/-/input-0.0.5.tgz#5ce58bb4da2580f611a02060fc8c45712b034c27"
+  integrity sha512-PJr08fFsxitYT30+OEQMo7JO3lZmJ+PCGiNEfNouMBM7leEgshVDpOo3LTS4uPI4ue3eAjPRbC1JY489MxVl9g==
 
 "@avj/use-form@^0.0.7":
   version "0.0.7"

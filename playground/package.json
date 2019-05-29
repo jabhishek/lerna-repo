@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@avj/input": "0.0.4-alpha.0",
+    "@avj/input": "0.0.5",
     "@avj/use-form": "^0.0.7",
     "@babel/core": "^7.4.5",
     "@types/react": "^16.8.18",
